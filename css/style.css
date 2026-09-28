@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #3168e9d0, #7927cbe0, #00ffe1b4);
+    font-family: initial;
+}
+.perfil{
+    width: 600px;
+    background-color: rgba(17, 8, 55, 0.908);
+    padding: 70px;
+    text-align: center;
+    border-radius: 1000px;
+    box-shadow: 0 0 50px rgb(255, 25, 228);
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+h1{
+    color: #fffefe;
+}
+h3{
+    color: rgb(255, 255, 255);
+}
+p{
+    color: aliceblue;
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 15px;
+}
